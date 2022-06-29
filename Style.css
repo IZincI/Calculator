@@ -1,0 +1,58 @@
+body{
+    background-color: #9933FF;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppings', sans-serif;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+
+.tens{
+    display: flex;
+}
+
+.Main-Contain{
+    height: 25em;
+    width: 70%;
+    max-height: 400px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255,255,255,0.25);
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37);
+    color: white;
+    font-weight: bold;
+    border: 2px solid pink;
+    border-radius: 20px;
+    font-size: 32px;
+    
+}
+
+.Buttons-Contain{
+    
+    
+   
+}
+
+.buttons{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+    height: 50px;
+   
+    width: 100px;
+    font-weight: bold;
+    background-color: rgb(255,255,255,0.2);
+    color: #fff;
+    cursor: pointer;
+    border: 2px solid rgba(255, 192, 203, 0.658);
+    border-radius: 5px;
+}
+
+.buttons:hover{
+    color: rgb(255,255,255,0.5);
+}
